@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NodeLightning</string>
+    <string name="node_list_error_text">Ops.. Algo deu errado :(</string>
 </resources>
