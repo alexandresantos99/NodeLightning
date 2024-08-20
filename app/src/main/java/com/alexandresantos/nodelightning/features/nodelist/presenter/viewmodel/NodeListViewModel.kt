@@ -17,6 +17,8 @@ class NodeListViewModel(private val useCase: GetAllNodesUseCaseInterface) : View
     val nodesLiveData: LiveData<NodeListState> get() = _nodesLiveData
 
     fun getAllNodes() {
+        _nodesLiveData.postValue(NodeListState.Loading)
+
         viewModelScope.launch {
             useCase.getAllNodes().onSuccess { list ->
                 _nodesLiveData.postValue(NodeListState.Success(data = list))

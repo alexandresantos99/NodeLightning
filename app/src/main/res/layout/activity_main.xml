@@ -38,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:textSize="24sp"
             android:text="@string/node_list_error_text"
             android:visibility="visible" />
 
