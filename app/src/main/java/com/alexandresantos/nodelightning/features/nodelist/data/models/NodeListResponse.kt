@@ -9,7 +9,7 @@ data class NodeListResponse(
     @SerializedName("capacity") var capacity: Long,
     @SerializedName("firstSeen") var firstSeen: Long,
     @SerializedName("updatedAt") var updatedAt: Long,
-    @SerializedName("city") var brType: BrType? = null,
+    @SerializedName("city") var city: BrType? = null,
     @SerializedName("country") var country: BrType? = null
 )
 
