@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NodeLightning</string>
+
+    <!--    Node List Screen-->
+    <string name="node_list_error_text">Ops.. Algo deu errado :(</string>
+    <string name="node_list_btc_amount_format">%1$.8f BTC</string>
+    <string name="node_list_public_in">Public in: %1$s</string>
+    <string name="node_list_last_update">Last Update: %1$s</string>
+    <string name="node_list_channels">Channels: %1$s</string>
 </resources>
