@@ -2,6 +2,11 @@
 
  - Java 17
  - Min SDK 26
+ - Gson
+ - Retrofit
+ - Koin
+ - Mockk
+ - Coroutines Test
 
 ## Steps to run the app
 
